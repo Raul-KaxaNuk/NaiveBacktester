@@ -1,7 +1,6 @@
-import numpy as np
 import pandas as pd
 
-from src.kaxanuk.attribution_analysis.interfaces import StrategyBacktest
+from src.PortfolioBacktester.interfaces import StrategyBacktest
 
 
 class BenchmarkBacktest(StrategyBacktest):

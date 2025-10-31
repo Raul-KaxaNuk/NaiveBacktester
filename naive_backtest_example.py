@@ -1,17 +1,16 @@
 import pandas as pd
 import importlib
-import matplotlib.pyplot as plt
 
-import src.kaxanuk.attribution_analysis.modules.visualization as viz
-import src.kaxanuk.attribution_analysis.modules.data_wrangling as dw
-import src.kaxanuk.attribution_analysis.modules.benchmark_st as bmk
-import src.kaxanuk.attribution_analysis.modules.performance_attribution_fun as patt
-from src.kaxanuk.attribution_analysis.entinties import NaiveBacktest
+# import src.kaxanuk.PortfolioBacktester.modules.visualization as viz
+import src.PortfolioBacktester.modules.data_wrangling as dw
+# import src.kaxanuk.PortfolioBacktester.modules.benchmark_st as bmk
+# import src.kaxanuk.PortfolioBacktester.modules.performance_attribution_fun as patt
+from src.PortfolioBacktester.entinties import NaiveBacktest
 
 importlib.reload(dw)
-importlib.reload(viz)
-importlib.reload(bmk)
-importlib.reload(patt)
+# importlib.reload(viz)
+# importlib.reload(bmk)
+# importlib.reload(patt)
 
 #%%
 """

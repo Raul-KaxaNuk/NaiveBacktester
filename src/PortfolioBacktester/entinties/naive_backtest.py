@@ -1,9 +1,8 @@
-import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 
-from src.kaxanuk.attribution_analysis.interfaces import StrategyBacktest
-from src.kaxanuk.attribution_analysis.modules.performance_functions import summary_stats
+from src.PortfolioBacktester.interfaces import StrategyBacktest
+from src.PortfolioBacktester.modules.performance_functions import summary_stats
 
 
 class NaiveBacktest(StrategyBacktest):
